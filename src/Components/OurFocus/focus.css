@@ -1,0 +1,74 @@
+/* Focus Section */
+.focus {
+  width: 100%;
+  height: 372px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* centers horizontally */
+  justify-content: flex-start; /* aligned to top */
+  gap: 40px;
+  background-color: #f9f9f9; /* optional */
+  margin: 0 auto;
+}
+
+/* Content box */
+.focus .content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+/* First text (Heading) */
+.focus .text1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  height:40px;
+  font-weight:regular;
+  line-height: 42px;
+  color: #000;
+  margin: 0;
+}
+
+/* Second text (Subheading/description) */
+.focus .text2 {
+  width: 100%;               /* fill */
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;          /* Medium */
+  font-size: 18px;
+  line-height: 28px;
+  color: #595959;
+  margin: 0;
+}
+
+            /* allows wrapping if small screen */
+.button_container {
+  width: 100%x;                 /* You can adjust this */
+  display: flex;
+  justify-content: center;       /* centers the buttons horizontally */
+  align-items: center;           /* vertically centers */
+  flex-wrap: wrap;               /* allows wrapping if screen is small */
+  gap: 4px;                     /* space between buttons */
+  margin: 0 auto;                /* centers the whole container */
+  padding: 20px;  
+                 /* inner spacing */
+}
+.focus .button_container .buttons {
+  width: 307px;
+  height: 122px;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  border: 1px solid transparent;
+  color: #000;
+  background-color: #f3f3f3;
+  
+}
+.focus .button_container .buttons:hover {
+  background-color: #226CAA; /* fill color */
+  color: #fff; /* white text for contrast */
+  border: 1px solid #226CAA; /* stroke weight = 1px */
+  transform: translateY(-3px);
+}

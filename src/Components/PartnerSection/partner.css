@@ -1,0 +1,112 @@
+/* ---------------------- PARTNERS SECTION ---------------------- */
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 60px 100px;
+  box-sizing: border-box;
+  flex-wrap:wrap;
+  box-sizing:border-box;
+  text-align:center;
+  background-color: #ffffff;
+  gap: 40px;
+}
+
+/* Title text */
+.partner p {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  margin: 0;
+}
+
+/* Each slide container */
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* important for arrow positioning */
+}
+
+/* Partner logos */
+.partners {
+  height: 60px;
+  display:flex;
+  flex-wrap:wrap;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.partners:hover {
+  transform: scale(1.05);
+}
+
+/* Ensure slider stays centered */
+.slick-slider {
+  width: 100%;
+  min-height: 100px;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top:15px;
+}
+
+/* ---------------------- CUSTOM ARROWS ---------------------- */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  background: #226caa;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.custom-arrow:hover {
+  background: #004a75;
+  opacity: 1;
+}
+
+.custom-arrow.prev {
+  left: -50px;
+}
+
+.custom-arrow.next {
+  right: -50px;
+}
+
+/* Prevent arrow overlap on smaller screens */
+@media (max-width: 768px) {
+  .custom-arrow.prev {
+    left: -25px;
+  }
+  .custom-arrow.next {
+    right: -25px;
+  }
+}

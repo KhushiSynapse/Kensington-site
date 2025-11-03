@@ -1,0 +1,153 @@
+.footer {
+  width: 100%;
+  height: 178px;
+  background-color: #226CAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.content-box1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  gap:40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-box2 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.content-box2 img{
+  width: 140px;
+  height: 58px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+margin-right:40px;}
+
+/* ---------- LEFT SIDE ---------- */
+.container1 {
+  display: flex;
+  flex-direction: column; /* makes children vertical */
+  justify-content: center; /* vertical alignment within div (optional) */
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+.text1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.text2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  opacity: 0.9;
+  color: #ffffff;
+  margin-top: 2px;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+.right-col {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ---------- LINKS ---------- */
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  transition: opacity 0.3s ease;
+  margin-right:10px;
+}
+
+.links a:hover {
+  opacity: 0.8;
+}
+
+/* ---------- ICON BUTTON ---------- */
+.icon button {
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon button img {
+  width: 24px;
+  height: 24px;
+}
+
+.icon button:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- CONTACT BUTTON ---------- */
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button button {
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 24px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button button p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #303137;
+  margin: 0;
+}
+
+.button button img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0);
+}
+
+.button button:hover {
+  background-color: #f3f3f3;
+  transform: translateY(-2px);
+}

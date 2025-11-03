@@ -1,0 +1,35 @@
+.view{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.view button {
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 24px;
+  background-color:#226CAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  padding:24px 12px;
+  transition: all 0.3s ease;
+}
+.view p{
+    font-family: "Noto Sans", sans-serif;
+  font-weight: 500;          /* medium */
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;      
+}
+
+button:hover {
+  background-color: #1b5a8a; /* darker blue on hover */
+}
+
+.view button img {
+  width: 24px;
+  height: 24px;
+}

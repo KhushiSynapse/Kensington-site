@@ -1,0 +1,71 @@
+/* Navbar container */
+.navbar {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+/* Auto layout wrapper for content */
+.contentBox {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; /* left - center - right */
+  align-items: center;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+
+/* Left link group  */
+.left_link {
+  display: flex;
+  gap: 32px; /*  */
+  align-items: center;
+  
+}
+
+.left_link a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Center logo */
+.logo {
+  width: 240px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Right link group (Auto layout = Flexbox again) */
+.right_link {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  
+}
+
+.right_link a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 24px;
+  font-family: "Noto Sans", sans-serif;
+}

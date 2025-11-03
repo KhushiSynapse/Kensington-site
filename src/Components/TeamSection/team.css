@@ -1,0 +1,225 @@
+/* ---------------------- TEAM SECTION ---------------------- */
+.team-section {
+  position: relative;                  /* Y = 1676 */
+  left: 0;                         /* X = 0 */
+  width: 100%;                     /* full width */
+  height: 695px;                   /* as per figma */
+  display: flex;
+  flex-direction: column;
+  align-items: center;             /* center align horizontally */
+  justify-content: flex-start;
+  gap: 40px;                       /* space between heading and cards */
+  background-color: #f9f9f9;       /* optional background */
+  padding: 0 100px;                /* maintain visual spacing */
+  box-sizing: border-box;
+  
+}
+
+/* ---------------------- CONTENT BOX ---------------------- */
+.team-section .content-box {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:2px 0;
+  text-align: center;
+  
+}
+
+.team-section .content-box .text1 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.team-section .content-box .text2 {
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #595959;
+}
+
+/* ---------------------- CARDS LAYOUT ---------------------- */
+.team-section .cards {
+  width: 100%;
+  height: 567px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-section .cards .row {
+  width: 100%;
+  height: 567px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+/* ---------------------- PERSON CARD ---------------------- */
+.team-section .person {
+  width: 307px;
+  height: 567px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  overflow:hidden;
+  transition:all 0.4s ease;
+  border-radius:0; 
+  background-color: #ffff;
+}
+
+.person .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 390px; /* same as image height */
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+/* The "See Full Bio" button */
+.person .overlay button {
+  background-color: white;
+  border: 2px solid #226CAA;
+  color: #226CAA;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.person .overlay button:hover {
+  background-color: #226CAA;
+  color: white;
+}
+
+/* Hover state: dim image + show overlay */
+.person:hover .overlay {
+  opacity: 1;
+}
+
+.person:hover .image {
+  transform: scale(1.03);
+  filter: grayscale(100%) brightness(90%);
+  transition: all 0.4s ease;
+}
+.team-section .person .image {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+/* ---------------------- FRAME 1 (bottom box) ---------------------- */
+.team-section .frame1 {
+  width: 100%;
+  flex-grow:1;
+  height: 95px;
+  display: flex;
+  fill:linear;
+  padding:40px 40px;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.95));
+  padding: 16px 0;
+  box-sizing: border-box;
+
+}
+
+/* ---------------------- CONTAINER (Name + Role + Mail + LinkedIn) ---------------------- */
+.team-section .container {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  
+}
+
+/* Member name */
+.team-section .container .name {
+  width: 100%;
+  height:42px;
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin: 0;
+  gap:10px;
+}
+
+/* ---------------------- FRAME 2 (role + mail + logo) ---------------------- */
+.team-section .frame2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* FRAME 3 (role + email text group) */
+.team-section .frame3 {
+    width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top:10px;
+}
+
+.team-section .frame3 .p1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: semi-bold;
+  line-height: 20px;
+  color:#226CAA;
+  gap:4px;
+  margin: 0 0 2px 0;
+}
+.team-section .frame3 .p2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  white-space:nowrap;
+  font-weight: medium;
+  line-height: 20px;
+  color: #595959;
+  margin-top: 0;
+}
+
+/* LinkedIn logo */
+.team-section .logo img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-bottom: 5note0px;
+}
