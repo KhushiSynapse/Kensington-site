@@ -1,0 +1,73 @@
+[{
+    "name":"Steve Goering",
+    "role":"Partner",
+    "email":"sgoering@ki-search.com",
+    "img":"images/picture1.png"
+},{
+    "name":"Mary Jane Schermer",
+    "role":"Partner, Healthcare & Life Sciences",
+    "email":"mjschermer@ki-search.com",
+    "img":"images/picture2.png"
+},{
+    "name":"Tim Bealert",
+    "role":"Partner",
+    "email":"tbealert@ki-search.com",
+    "img":"images/picture3.png"
+},{
+    "name":"Andy Wolkstein",
+    "role":"Partner",
+    "email":"awolkstein@ki-search.com",
+    "img":"images/picture4.png"
+},
+{
+    "name":"J. James O’Malley ",
+    "role":"Managing Director",
+    "email":"jomalley@ki-search.com",
+    "img":"images/picture.svg"
+},{
+    "name":"Kristina Greenhalgh",
+    "role":"Principal",
+    "email":"kgreenhalgh@ki-search.com",
+    "img":"images/picture5.svg"
+},{
+    "name":" Charlie McGuire",
+    "role":"Principal",
+    "email":"cmcquire@ki-search.com",
+    "img":"images/picture6.svg"
+},{
+    "name":"Elizabeth Fish ",
+    "role":"Principal",
+    "email":"efish@ki-search.com",
+    "img":"images/picture7.svg"
+},{
+    "name":"Dan Stinson ",
+    "role":"Principal",
+    "email":"dstinson@ki-search.com",
+    "img":"images/picture8.svg"
+},{
+    "name":"  Sheri Lyons",
+    "role":"Director of Search Operations",
+    "email":"slyons@ki-search.com",
+    "img":"images/picture9.svg"
+},{
+    "name":"Matt Kerr ",
+    "role":"Vice President",
+    "email":"mkerr@ki-search.com",
+    "img":"images/picture10.svg"
+},{
+    "name":"Susan Zdenek ",
+    "role":"Vice President, Finance",
+    "email":"szdenek@ki-search.com",
+    "img":"images/picture11.svg"
+},{
+    "name":"Rick George ",
+    "role":"Founder, Advisor",
+    "email":"rgeorge@ki-search.com",
+    "img":"images/picture12.svg"
+},{
+    "name":" Brian Clarke ",
+    "role":"Founder, Advisor ",
+    "email":"bclarke@ki-search.com",
+    "img":"images/picture13.svg"
+}
+]
